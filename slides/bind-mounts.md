@@ -1,6 +1,6 @@
 ### _bind mounts_
 
-![bind mounts](images/types-of-mounts-bind.png)
+![bind mounts](images/types-of-mounts-bind.png)<!-- .element: class="plain"-->
 
 Montamos un directorio del host para poder acceder a él dentro del contenedor.
 

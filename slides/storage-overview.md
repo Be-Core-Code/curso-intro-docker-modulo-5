@@ -1,6 +1,6 @@
 ### Almacenamiento en contenedores
 
-![container layer](images/docker-containers-and-images-1.jpg)
+![container layer](images/docker-containers-and-images-1.jpg)<!-- .element: class="plain"-->
 
 notes:
 
