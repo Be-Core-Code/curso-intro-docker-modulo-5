@@ -4,6 +4,37 @@
 
 Montamos un directorio del host para poder acceder a él dentro del contenedor.
 
+
+^^^^^^
+
+### Uso: `-v` o `--mount`
+
+```bash
+> docker run -v [RUTA EN EL HOST]:[RUTA EN EL CONTENEDOR]:[OPCIONES]
+> docker run --mount [key=value],...
+```
+
+
+notes:
+
+`--v` acepta las situientes opciones:
+
+* `ro`, `consistent`, `delegated`, `cached`, `z` y `Z`
+
+`--mount` acepta las siguientes opciones:
+
+* `type` que será `bind` en el caso que nos ocupa
+* `source`: ruta al fichero o directorio del host que queramos hacer visible dentro
+  del contenedor.
+* `destination` ruta dentro del contenedor en la que montar el volumen. Se puede usar `dst` o
+  `target`.
+* `readonly` una opción que, si está presente monta el _bind mount_ en modo solo lectura
+* `bind-propagation` configuración del 
+  [`bind-progation`](https://docs.docker.com/storage/bind-mounts/#configure-bind-propagation)
+* `consistency` que puede tomar los valores `consistent`, `delegated` o `cached`. 
+  Sólo aplicable en OSX. En el resto de plataformas se ignora
+* **No soporta las opciones `z`y `Z` para modificar las etiquetas `SELinux`**
+
 ^^^^^^
 
 ### Uso: `-v` o `--mount`
@@ -13,7 +44,6 @@ el host, **este se crea siempre como un directorio**
 
 Si hacemos un _bind mount_ de un fichero o directorio con `--mount` y este no existe en 
 el host, **se genera un error**
-
 
 ^^^^^^
 
