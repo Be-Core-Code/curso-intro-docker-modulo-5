@@ -3,11 +3,10 @@
 #### Volúmenes
 
 * [Almacenamiento en contenedores](#/storage-overview)
-* [Volúmenes](#/bind-mounts)
+* [Volúmenes](#/volumes)
 * [`bind mounts`](#/bind-mounts)
 * [`tmpfs mounts`](#/tmpfs-mounts)
 * [`VOLUME`](#/dockerfile-instructions)
-* [Comandos para gestionar volúmenes](#/managing-volumes)
 * [SELinux](/#se-linux)
 * [Mapping devices](/#mapping-devices)
 * [Ejercicio](/#exercise)
