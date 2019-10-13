@@ -163,3 +163,16 @@ notes:
 
 Esta opción utiliza los mismos volúmenes que el contenedor indicado. Nos permite
 no tener que duplicar la configuración del punto de montaje al crear el contenedor.
+
+^^^^^^
+
+### Sobre SELinux
+
+Si `dockerd` se ejecuta sobre un sistema con SELinux, puede darse el caso de
+que los contenedores no tengan permiso para acceder a los _bind mounts_
+
+Las opciones `z` y `Z` le indiquen a `dockerd` que añada las etiquetas de `selinux` 
+apropiadas a los ficheros en el volumen cuando se arranque el contenedor
+
+[Info](https://docs.docker.com/storage/bind-mounts/#configure-the-selinux-label)
+

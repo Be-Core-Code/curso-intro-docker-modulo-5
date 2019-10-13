@@ -7,7 +7,6 @@
 * [`bind mounts`](#/bind-mounts)
 * [`tmpfs mounts`](#/tmpfs-mounts)
 * [`VOLUME`](#/dockerfile-volume)
-* [SELinux](/#se-linux)
 * [Mapping devices](/#mapping-devices)
 * [Ejercicio](/#exercise)
 
