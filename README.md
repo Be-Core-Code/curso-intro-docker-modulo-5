@@ -3,6 +3,14 @@
 
 ## Índice
 
+* Almacenamiento en contenedores
+* Volúmenes
+* _bind mounts_
+* `tmpfs _mounts_
+* `VOLUME`
+* SELinux
+* Dispositivos
+* Ejercicio
 
 Para ver las diapositivas:
 
