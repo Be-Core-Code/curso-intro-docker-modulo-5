@@ -114,4 +114,4 @@ los servicios de `swarm` lo utilizan para compartir `secrets` entre contenedores
 * Si montas directorio o fichero del host utilizando un _bind mount_ sobre 
   un fichero o directorio del contenedor que contiene algo, 
   **dentro del contenedor verás el contenido del host**. Los ficheros y directorios
-  del host no se borran, pero no podrás acceder a ellos.
+  del contenedor no se borran, pero no podrás acceder a ellos.
