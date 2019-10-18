@@ -56,7 +56,7 @@ Utilizando volúmenes, vamos a editar las diapositivas del módulo en caliente.
 ```bash 
 > docker run --rm -d --name auxcontainer -p "8005:8005" becorecode/curso-intro-docker-modulo-5
 > docker container cp auxcontainer:/home/node/slides .
-> docker container rm auxcontainer
+> docker container stop auxcontainer
 ```
 
 ^^^^^^
