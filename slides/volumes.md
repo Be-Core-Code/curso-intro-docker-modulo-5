@@ -248,13 +248,3 @@ como el volumen anónimo. El volumen `data` no se borra y podremos verlo
 usando el comando `doker volume ls`
 
 Si entramos en el contenedor con `bash` podemos ver el volumen con el comando `mount`
-
-^^^^^^
-
-### 💻 ️Práctica 2 💻
-
-
-notes:
-
-Esta práctica está insipirada en esta 
-[sección de la documentación de docker](https://docs.docker.com/storage/volumes/#backup-a-container)
